@@ -1,0 +1,11 @@
+<form action="/ASM2/LoginServlet" method="post" >
+<input type="hidden" name="action" value="dologin" />   
+
+Email: <input type="text" name="username" value="<%= request.getAttribute("username") %>" />
+Password: <input type="text" name="password" value="<%= request.getAttribute("password") %>" />
+<input type="submit"value="OK" />
+</form>
+
+
+// line 41
+<p class="text-warning text-center"><%=message%></p>
